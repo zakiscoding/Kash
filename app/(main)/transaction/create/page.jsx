@@ -7,8 +7,9 @@ import { getTransaction } from '@/actions/transaction.js';
 const AddTransactionPage = async ({ searchParams }) => {
 
   const accounts = await getUserAccounts();
-
-  const editId = searchParams?.edit;
+  const awaitParamsResolved = await searchParams;
+  const editId = awaitParamsResolved?.edit;
+  
 
   let initialData = null;
   if (editId) {

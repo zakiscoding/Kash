@@ -11,7 +11,7 @@ const Header = async () => {
   return (
     
     <div className= "fixed top-0 w-full bg-white/70 backdrop-blur-md border-b z-50">
-      <nav className = "container mx auto px-4 py-4 flex items-center justify-between">
+      <nav className = "container-mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
           <Image 
           src={"/logo.png"}
