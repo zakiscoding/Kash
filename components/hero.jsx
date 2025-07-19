@@ -11,7 +11,7 @@ const HeroSection = () => {
         const imageElement = imageRef.current;
 
         const handleScroll = () => {
-            const scrollPosituin = window.scrollY;
+            const scrollPosition = window.scrollY;
             const scrollThreshold = 100;
 
             if (scrollPosituin > scrollThreshold) {
@@ -40,7 +40,7 @@ const HeroSection = () => {
                         Get Started
                     </Button>
                 </Link>
-                <Link href="/https://github.com/zakiscoding/projects">
+                <Link href="https://github.com/zakiscoding/Kash">
                     <Button size="lg" variant="outline" className="px-8">
                         Tutorial: View on GitHub
                     </Button>
